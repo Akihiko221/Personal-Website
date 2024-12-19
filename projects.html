@@ -6,6 +6,8 @@
 		<title>SyahrezaSatriaAlfath</title>
 		<link href="/src/output.css" rel="stylesheet" />
 		<link rel="stylesheet" href="/src/style.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+
 
 		<!-- fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,18 +18,18 @@
 		/>
 	</head>
 	<body class="font-primary">
-		<section class="max-w-xl mx-auto pt-8 pb-2 px-4 lg:px-0 fade-in">
+		<section class="max-w-xl px-4 pt-8 pb-2 mx-auto lg:px-0 fade-in">
 			<!-- Profile Showcase -->
-			<div class="flex flex-col lg:flex-row items-center mb-6 lg:mb-8">
+			<div class="flex flex-col items-center mb-6 lg:flex-row lg:mb-8">
 				<img
 					src="/src/img/profile.png"
 					alt="Profile Photo"
-					class="w-20 h-20 rounded-full mb-4 lg:mb-0 lg:mr-4 hover-zoom"
+					class="w-20 h-20 mb-4 rounded-full lg:mb-0 lg:mr-4 hover-zoom"
 				/>
 				<div class="text-center lg:text-left">
 					<h1 class="text-2xl font-medium">
 						Syahreza Satria Alfath
-						<span class="text-xs text-gray-300 font-light"
+						<span class="text-xs font-light text-gray-300"
 							><a
 								href="https://instagram.com/syahreza_satria"
 								class="hover-link"
@@ -35,7 +37,7 @@
 							></span
 						>
 					</h1>
-					<p class="text-gray-600 text-sm font-light">
+					<p class="text-sm font-light text-gray-600">
 						Web Developer, UI Designer, Photographer & Content Creator
 					</p>
 				</div>
@@ -43,10 +45,10 @@
 			<hr />
 
 			<!-- Content -->
-			<div class="py-8 max-w-3xl mx-auto">
+			<div class="max-w-3xl py-8 mx-auto">
 				<!-- Section Title -->
-				<h2 class="text-2xl font-semibold mb-6 text-gray-800">PROJECTS</h2>
-				<p class="text-base font-light leading-relaxed text-gray-600 mb-8">
+				<h2 class="mb-6 text-2xl font-semibold text-gray-800">PROJECTS</h2>
+				<p class="mb-8 text-base font-light leading-relaxed text-gray-600">
 					Here are some of the projects I’ve worked on. Feel free to explore the
 					details and check the live versions or repositories through the
 					provided links.
@@ -54,25 +56,25 @@
 				<hr class="mb-8" />
 
 				<!-- Projects Grid -->
-				<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+				<div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
 					<!-- Projects Card -->
 					<div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/pixelit.png"
 								alt="pixelit"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Personal</h3>
-						<h3 class="font-medium text-lg text-gray-800">PixelIt</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Personal</h3>
+						<h3 class="text-lg font-medium text-gray-800">PixelIt</h3>
+						<p class="mt-2 text-sm font-light text-gray-500">
 							Web app where I want people to share their art freely and will be
 							focused with indonesian artist.
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -90,22 +92,22 @@
 						</a>
 					</div>
 					<div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/techidn.png"
 								alt="Title"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Personal</h3>
-						<h3 class="font-medium text-lg text-gray-800">TechID</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Personal</h3>
+						<h3 class="text-lg font-medium text-gray-800">TechID</h3>
+						<p class="mt-2 text-sm font-light text-gray-500">
 							A place for people to search up technologies that are released
 							only in Indonesia.
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -123,21 +125,21 @@
 						</a>
 					</div>
                     <div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/hutangin.png"
 								alt="Title"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Personal</h3>
-						<h3 class="font-medium text-lg text-gray-800">HutangIn</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Personal</h3>
+						<h3 class="text-lg font-medium text-gray-800">HutangIn</h3>
+						<p class="mt-2 text-sm font-light text-gray-500">
 							A web app for me to write down all my bills in my apartement. This is a personal use only
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -155,25 +157,25 @@
 						</a>
 					</div>
 					<div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/lakeside-membership.png"
 								alt="Title"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Thesis</h3>
-						<h3 class="font-medium text-lg text-gray-800">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Thesis</h3>
+						<h3 class="text-lg font-medium text-gray-800">
 							Lakeside F&B Group Membership
 						</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
-							<p class="text-gray-500 text-sm font-light mt-2">
+						<p class="mt-2 text-sm font-light text-gray-500">
+							<p class="mt-2 text-sm font-light text-gray-500">
                                 Lakeside F&B Group Membership is a web app that provides an online ordering system and rewards point redemption to enhance customer experience.
                             </p>        
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -191,21 +193,21 @@
 						</a>
 					</div>
 					<div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/F&B.png"
 								alt="Title"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Personal</h3>
-						<h3 class="font-medium text-lg text-gray-800">F&B Delivery</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Personal</h3>
+						<h3 class="text-lg font-medium text-gray-800">F&B Delivery</h3>
+						<p class="mt-2 text-sm font-light text-gray-500">
 							Designing an app to learn how to design with mobile experience
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -223,21 +225,21 @@
 						</a>
 					</div>
 					<div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/keluarga-bisa.png"
 								alt="Title"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Personal</h3>
-						<h3 class="font-medium text-lg text-gray-800">Keluarga Bisa</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Personal</h3>
+						<h3 class="text-lg font-medium text-gray-800">Keluarga Bisa</h3>
+						<p class="mt-2 text-sm font-light text-gray-500">
 							Group project in my college where we tried to solve the awareness of parents where a good enviroment is something a child needeed
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -255,21 +257,21 @@
 						</a>
 					</div>
 					<div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/hellena.png"
 								alt="Title"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Build With Angga</h3>
-						<h3 class="font-medium text-lg text-gray-800">Nomads</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Build With Angga</h3>
+						<h3 class="text-lg font-medium text-gray-800">Nomads</h3>
+						<p class="mt-2 text-sm font-light text-gray-500">
 							This is a course where I learn how to design a website using Figma and also learn about the design principles in illustrator.
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -287,21 +289,21 @@
 						</a>
 					</div>
 					<div class="py-4">
-						<div class="w-full aspect-video overflow-hidden">
+						<div class="w-full overflow-hidden aspect-video">
 							<img
 								src="/src/img/nomads.png"
 								alt="Title"
-								class="w-full h-full object-cover rounded-xl"
+								class="object-cover w-full h-full rounded-xl"
 							/>
 						</div>
-						<h3 class="font-light text-sm mt-4 text-gray-500">Build With Angga</h3>
-						<h3 class="font-medium text-lg text-gray-800">NOMADS</h3>
-						<p class="text-gray-500 text-sm font-light mt-2">
+						<h3 class="mt-4 text-sm font-light text-gray-500">Build With Angga</h3>
+						<h3 class="text-lg font-medium text-gray-800">NOMADS</h3>
+						<p class="mt-2 text-sm font-light text-gray-500">
 							This is a course where I learn how to design & code a website using Figma as the design tools and how to implement it using HTML, CSS, and JavaScript. For backend we use laravel.
 						</p>
-						<a href="#" target="_blank" class="mt-4 block">
+						<a href="#" target="_blank" class="block mt-4">
 							<button
-								class="flex justify-center gap-2 items-center text-gray-500 hover:text-gray-800 font-medium text-sm py-2 w-full rounded-lg transition duration-300 hover:bg-gray-100 bg-gray-50 border border-gray-200"
+								class="flex items-center justify-center w-full gap-2 py-2 text-sm font-medium text-gray-500 transition duration-300 border border-gray-200 rounded-lg hover:text-gray-800 hover:bg-gray-100 bg-gray-50"
 							>
 								View Project
 								<svg
@@ -325,8 +327,8 @@
 
 		<!-- Navbar -->
 		<hr class="max-w-xl mx-auto" />
-		<nav class="w-full py-4 bg-white fixed bottom-0 left-0">
-			<div class="flex gap-4 justify-center text-gray-300 text-sm sm:text-base">
+		<nav class="fixed bottom-0 left-0 w-full py-4 bg-white">
+			<div class="flex justify-center gap-4 text-sm text-gray-300 sm:text-base">
 				<a href=" /index.html" class="hover-link">Profile</a>
 				<a href=" /projects.html" class="hover-link">Projects</a>
 				<a href=" /gear.html" class="hover-link">Gear</a>
